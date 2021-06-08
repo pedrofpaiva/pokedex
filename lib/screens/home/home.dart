@@ -40,15 +40,18 @@ class Home extends StatelessWidget {
               _charmander.photo,
               width: 100,
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
               _charmander.description,
               textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 14,
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 16,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -65,6 +68,9 @@ class Home extends StatelessWidget {
               ],
             ),
             Details(_charmander),
+            SizedBox(
+              height: 16,
+            ),
             Weaknessses(),
           ],
         ),

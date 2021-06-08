@@ -14,7 +14,13 @@ class Weaknessses extends StatelessWidget {
             ),
             child: Text(
               "Fraquezas",
+              style: TextStyle(
+                fontSize: 18,
+              ),
             ),
+          ),
+          SizedBox(
+            height: 4,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
